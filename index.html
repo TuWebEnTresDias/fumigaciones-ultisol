@@ -7,13 +7,13 @@
   <link rel="icon" type="image/jpeg" href="https://atuwfbqtoadwjamrueqm.supabase.co/storage/v1/object/public/chat-media/image/2453193368547112.jpg">
   <meta property="og:image" content="https://atuwfbqtoadwjamrueqm.supabase.co/storage/v1/object/public/chat-media/image/2453193368547112.jpg">
   <meta name="robots" content="noindex,follow">
-  <meta name="description" content="Ultisol Fumigaciones: control de plagas con enfoque en industrias alimentarias. Atención en Misiones. Consultá por tu establecimiento.">
+  <meta name="description" content="Ultisol Fumigaciones se enfoca en el Manejo Integrado de Plagas para industrias alimentarias. Atención en Misiones; consultas por proyectos puntuales en Corrientes, especialmente Mercedes.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_AR">
-  <meta property="og:title" content="Ultisol Fumigaciones | Industrias alimentarias en Misiones">
-  <meta property="og:description" content="Un enfoque en control de plagas para industrias alimentarias. Consultá por tu establecimiento en Misiones.">
+  <meta property="og:title" content="Manejo Integrado de Plagas para industrias alimentarias | Ultisol Fumigaciones">
+  <meta property="og:description" content="Manejo Integrado de Plagas para plantas procesadoras, secaderos, molinos y envasadoras. Atención en Misiones y consultas puntuales para Corrientes.">
   <meta name="referrer" content="no-referrer">
-  <title>Ultisol Fumigaciones | Industrias alimentarias en Misiones</title>
+  <title>Manejo Integrado de Plagas para industrias alimentarias | Ultisol Fumigaciones</title>
   <style>
     :root {
       color-scheme: light;
@@ -38,7 +38,7 @@
     .skip-link { position: absolute; left: 14px; top: -70px; z-index: 100; padding: 10px 14px; background: var(--brand-cyan); color: var(--brand-navy); border-radius: 8px; font-weight: 700; }
     .skip-link:focus { top: 12px; }
     .wrap { width: min(1160px, calc(100% - 48px)); margin-inline: auto; }
-    .site-header { position: sticky; top: 0; z-index: 20; background: rgba(244, 246, 239, .96); border-bottom: 1px solid rgba(21, 54, 43, .09); backdrop-filter: blur(14px); }
+    .site-header { position: sticky; top: 0; z-index: 20; background: rgba(244, 248, 251, .96); border-bottom: 1px solid rgba(18, 59, 93, .1); backdrop-filter: blur(14px); }
     .header-inner { min-height: var(--header-height); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
     .brand { text-decoration: none; display: flex; align-items: center; gap: 13px; line-height: 1.08; flex: 0 0 auto; }
     .brand-logo { width: 66px; height: 66px; display: block; flex: 0 0 auto; object-fit: contain; border: 1px solid #d5e3ec; border-radius: 50%; background: #fff; padding: 2px; box-shadow: 0 6px 18px rgba(18,59,93,.1); }
@@ -96,7 +96,7 @@
     .section-heading h2 { margin: 14px 0 13px; color: var(--brand-navy); font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 820; line-height: 1.05; letter-spacing: -.055em; }
     .section-heading p { margin: 0; color: var(--muted); font-size: 1rem; }
     .focus { background: var(--white); }
-    .focus-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; }
+    .focus-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 17px; }
     .focus-card { min-height: 235px; padding: 27px; border: 1px solid var(--line); border-radius: 21px; background: var(--white); transition: transform .2s ease, box-shadow .2s ease; }
     .focus-card:hover { transform: translateY(-4px); box-shadow: 0 18px 38px rgba(18,59,93,.09); }
     .focus-number { display: inline-block; color: #2385a8; font-size: .75rem; font-weight: 850; letter-spacing: .12em; }
@@ -116,7 +116,10 @@
     .location .kicker { color: var(--brand-cyan); }
     .location h2 { max-width: 650px; margin: 14px 0 16px; font-size: clamp(2rem, 4vw, 3.3rem); font-weight: 820; line-height: 1.04; letter-spacing: -.055em; }
     .location-copy { max-width: 600px; margin-bottom: 0; color: #cbdde8; }
-    .location-card { padding: 27px; border: 1px solid rgba(255,255,255,.27); border-radius: 21px; background: rgba(255,255,255,.06); }
+    .coverage-stack { display: grid; gap: 12px; }
+    .location-card { padding: 25px; border: 1px solid rgba(255,255,255,.27); border-radius: 21px; background: rgba(255,255,255,.06); }
+    .location-card-secondary { border-color: rgba(85,193,220,.52); background: rgba(85,193,220,.08); }
+    .location-card-secondary small { color: #ffb48a; }
     .location-card small { display: block; color: var(--brand-cyan); font-size: .68rem; font-weight: 850; letter-spacing: .15em; text-transform: uppercase; }
     .location-card strong { display: block; margin: 9px 0 3px; font-size: 1.55rem; letter-spacing: -.035em; }
     .location-card span { color: #d4e3ec; font-size: .9rem; }
@@ -153,6 +156,7 @@
       .nav a { font-size: .84rem; }
       .conversation-grid { gap: 36px; }
       .location-grid { gap: 35px; }
+      .focus-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 720px) {
       :root { --header-height: auto; }
@@ -217,8 +221,8 @@
         <span class="brand-copy"><strong>ULTISOL</strong><span>Fumigaciones · Oberá</span></span>
       </a>
       <nav class="nav" aria-label="Navegación principal">
-        <a href="#enfoque">Enfoque</a>
-        <a href="#zona">Zona de atención</a>
+        <a href="#rubros">Rubros</a>
+        <a href="#zona">Cobertura</a>
         <a href="#preguntas">Preguntas</a>
         <a class="nav-cta" href="#contacto">Contacto</a>
       </nav>
@@ -228,28 +232,28 @@
     <section class="hero" id="inicio" aria-labelledby="hero-title">
       <div class="wrap hero-grid">
         <div>
-          <span class="eyebrow">Ultisol Fumigaciones · Misiones</span>
-          <h1 id="hero-title">Control de plagas para <em>industrias alimentarias.</em></h1>
-          <p class="hero-copy">Un enfoque claro para empresas del rubro alimentario. Consultá por tu establecimiento y la localidad donde necesitás atención.</p>
+          <span class="eyebrow">Manejo Integrado de Plagas · Misiones</span>
+          <h1 id="hero-title">Manejo Integrado de Plagas para <em>industrias alimentarias.</em></h1>
+          <p class="hero-copy">Un enfoque dirigido a plantas procesadoras, secaderos, molinos y envasadoras, entre otros establecimientos del sector alimentario.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20consultar%20por%20control%20de%20plagas%20para%20una%20industria%20alimentaria.%20Mi%20establecimiento%20est%C3%A1%20en%20Misiones." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
-            <a class="button button-light" href="#enfoque">Conocer el enfoque</a>
+            <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20quiero%20consultar%20por%20el%20Manejo%20Integrado%20de%20Plagas%20para%20un%20establecimiento%20alimentario.%20%C2%BFMe%20indican%20disponibilidad%20para%20mi%20localidad%3F" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
+            <a class="button button-light" href="#rubros">Ver rubros</a>
           </div>
-          <p class="hero-note"><strong>Atención en Misiones.</strong> Consultá cobertura para tu localidad.</p>
+          <p class="hero-note"><strong>Atención actual en Misiones.</strong> Para trabajos puntuales en Corrientes, consultá disponibilidad, especialmente en Mercedes.</p>
         </div>
         <div class="hero-art" aria-label="Logo de Ultisol Fumigaciones y enfoque en industrias alimentarias">
           <div class="art-content">
             <div class="art-topline">
               <span class="art-tag">Enfoque principal</span>
-              <span class="art-location">Misiones · Argentina</span>
+              <span class="art-location">Industrias alimentarias</span>
             </div>
             <div class="art-feature">
               <div class="hero-logo-card"><img src="https://atuwfbqtoadwjamrueqm.supabase.co/storage/v1/object/public/chat-media/image/2453193368547112.jpg" alt="Logo de Ultisol Fumigaciones" width="220" height="220" fetchpriority="high" referrerpolicy="no-referrer"></div>
-              <h2 class="art-title">Industrias <span>alimentarias</span></h2>
+              <h2 class="art-title">Manejo Integrado <span>de Plagas</span></h2>
             </div>
             <div class="art-rule"></div>
             <div class="art-prompt"><b>1</b><span>Contanos qué tipo de establecimiento tenés.</span></div>
-            <div class="art-prompt"><b>2</b><span>Indicá tu localidad en Misiones.</span></div>
+            <div class="art-prompt"><b>2</b><span>Indicá la localidad y provincia.</span></div>
             <div class="art-prompt"><b>3</b><span>Describí qué necesitás resolver.</span></div>
           </div>
         </div>
@@ -257,33 +261,38 @@
     </section>
     <section class="quick-facts" aria-label="Resumen de Ultisol">
       <div class="wrap quick-facts-inner">
-        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Fumigaciones</div>
-        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Enfoque en industrias alimentarias</div>
-        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Atención en Misiones</div>
+        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Manejo Integrado de Plagas</div>
+        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Atención actual en Misiones</div>
+        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Consultas puntuales en Corrientes</div>
       </div>
     </section>
-    <section class="section focus" id="enfoque">
+    <section class="section focus" id="rubros">
       <div class="wrap">
         <header class="section-heading">
-          <span class="kicker">Un servicio para conversar</span>
-          <h2>Empecemos por conocer tu establecimiento</h2>
-          <p>La consulta permite entender el tipo de actividad, la ubicación y la necesidad concreta antes de conversar el alcance del servicio.</p>
+          <span class="kicker">Enfoque sectorial</span>
+          <h2>Manejo Integrado de Plagas para la industria alimentaria</h2>
+          <p>Ultisol orienta su propuesta a plantas procesadoras, secaderos, molinos y envasadoras, entre otros establecimientos del sector.</p>
         </header>
         <div class="focus-grid">
           <article class="focus-card">
-            <span class="focus-number">01 · ACTIVIDAD</span>
-            <h3>Industria alimentaria</h3>
-            <p>El enfoque principal de Ultisol está puesto en empresas del rubro alimentario.</p>
+            <span class="focus-number">01 · PROCESAMIENTO</span>
+            <h3>Plantas procesadoras</h3>
+            <p>Manejo Integrado de Plagas para establecimientos que procesan alimentos.</p>
           </article>
           <article class="focus-card">
-            <span class="focus-number">02 · UBICACIÓN</span>
-            <h3>Atención en Misiones</h3>
-            <p>Compartí tu localidad para confirmar disponibilidad y alcance.</p>
+            <span class="focus-number">02 · SECADEROS</span>
+            <h3>Secaderos</h3>
+            <p>Un enfoque de MIP para secaderos vinculados a la industria alimentaria.</p>
           </article>
           <article class="focus-card">
-            <span class="focus-number">03 · CONSULTA</span>
-            <h3>Tu necesidad puntual</h3>
-            <p>Contanos qué querés resolver y qué tipo de establecimiento requiere atención.</p>
+            <span class="focus-number">03 · MOLINOS</span>
+            <h3>Molinos</h3>
+            <p>Consultas para molinos y otros establecimientos relacionados con alimentos.</p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">04 · ENVASADO</span>
+            <h3>Envasadoras</h3>
+            <p>El enfoque también contempla plantas de envasado del sector alimentario.</p>
           </article>
         </div>
       </div>
@@ -293,12 +302,12 @@
         <div class="conversation-copy">
           <span class="kicker">Contacto directo</span>
           <h2>Una consulta clara ayuda a empezar bien.</h2>
-          <p>Podés escribir con el tipo de establecimiento, la localidad y una breve descripción de tu consulta. El equipo de Ultisol te responderá para conversar los próximos pasos.</p>
-          <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20quiero%20consultar%20por%20un%20establecimiento%20alimentario%20en%20Misiones." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+          <p>Al escribir, contanos qué tipo de establecimiento tenés, en qué localidad y provincia está, y qué necesitás conversar.</p>
+          <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20consultar%20por%20Manejo%20Integrado%20de%20Plagas%20para%20un%20establecimiento%20alimentario.%20%C2%BFMe%20indican%20disponibilidad%20para%20mi%20localidad%3F" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
         </div>
         <div class="conversation-list" aria-label="Datos útiles para la consulta">
           <div class="conversation-item"><b>01</b><div><strong>Tipo de actividad</strong><span>Qué produce o qué función cumple el establecimiento.</span></div></div>
-          <div class="conversation-item"><b>02</b><div><strong>Localidad</strong><span>La ciudad o zona de Misiones donde necesitás atención.</span></div></div>
+          <div class="conversation-item"><b>02</b><div><strong>Localidad</strong><span>La ciudad o zona donde necesitás atención.</span></div></div>
           <div class="conversation-item"><b>03</b><div><strong>Motivo de consulta</strong><span>La situación que querés conversar con el equipo.</span></div></div>
         </div>
       </div>
@@ -306,14 +315,21 @@
     <section class="section location" id="zona">
       <div class="wrap location-grid">
         <div>
-          <span class="kicker">Misiones, Argentina</span>
-          <h2>Desde Oberá, con atención en la provincia.</h2>
-          <p class="location-copy">Ultisol Fumigaciones tiene su base en Oberá. Escribinos con tu localidad para conversar sobre la disponibilidad del servicio.</p>
+          <span class="kicker">Misiones y Corrientes</span>
+          <h2>Atención en Misiones y consultas para Corrientes.</h2>
+          <p class="location-copy">Ultisol tiene su base en Oberá y brinda atención en Misiones. Para proyectos puntuales en Corrientes, especialmente en Mercedes, consultá disponibilidad según la localidad y el trabajo.</p>
         </div>
-        <div class="location-card">
-          <small>Ubicación de referencia</small>
-          <strong>Oberá</strong>
-          <span>Misiones · Argentina</span>
+        <div class="coverage-stack">
+          <div class="location-card">
+            <small>Atención actual</small>
+            <strong>Misiones</strong>
+            <span>Base en Oberá · Argentina</span>
+          </div>
+          <div class="location-card location-card-secondary">
+            <small>Proyectos puntuales · consultar disponibilidad</small>
+            <strong>Mercedes, Corrientes</strong>
+            <span>La disponibilidad se confirma para cada consulta.</span>
+          </div>
         </div>
       </div>
     </section>
@@ -327,11 +343,11 @@
         <div class="faq-list">
           <details>
             <summary>¿A qué tipo de empresas está orientado el enfoque?</summary>
-            <p>Principalmente a industrias alimentarias. Escribinos para conversar sobre tu actividad y necesidad.</p>
+            <p>El enfoque incluye plantas procesadoras, secaderos, molinos y envasadoras, entre otros establecimientos del sector.</p>
           </details>
           <details>
             <summary>¿En qué zonas trabajan?</summary>
-            <p>Actualmente, la atención se centra en Misiones. Consultá por tu localidad para confirmar disponibilidad.</p>
+            <p>La atención actual se centra en Misiones. También podés consultar por proyectos puntuales en Corrientes, especialmente en Mercedes; la disponibilidad se confirma según cada caso.</p>
           </details>
           <details>
             <summary>¿Qué datos conviene incluir en la consulta?</summary>
@@ -348,15 +364,15 @@
       <div class="wrap contact-panel">
         <div>
           <span class="kicker">Hablemos de tu caso</span>
-          <h2>¿Tu establecimiento está en Misiones?</h2>
-          <p>Contactá a Facundo, Director Técnico de Ultisol, para compartir tu consulta.</p>
+          <h2>¿Tu establecimiento es del rubro alimentario?</h2>
+          <p>Compartí el tipo de actividad y la localidad para conversar sobre la disponibilidad y los próximos pasos.</p>
         </div>
         <div class="contact-actions">
           <div class="contact-detail">
             <small>WhatsApp y teléfono</small>
             <a href="tel:+5493755431780">+54 9 3755 43-1780</a>
           </div>
-          <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20soy%20responsable%20de%20un%20establecimiento%20en%20Misiones%20y%20quiero%20consultar." target="_blank" rel="noopener noreferrer">Contactar a Ultisol por WhatsApp</a>
+          <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20soy%20responsable%20de%20un%20establecimiento%20alimentario%20y%20quiero%20consultar%20por%20disponibilidad%20en%20mi%20localidad." target="_blank" rel="noopener noreferrer">Contactar a Ultisol por WhatsApp</a>
         </div>
       </div>
     </section>
@@ -364,9 +380,9 @@
   <footer class="footer">
     <div class="wrap footer-inner">
       <div><div class="footer-brand">ULTISOL FUMIGACIONES</div><small>Oberá · Misiones · Argentina</small></div>
-      <div class="footer-note">Control de plagas · Enfoque en industrias alimentarias</div>
+      <div class="footer-note">Manejo Integrado de Plagas · Industrias alimentarias</div>
     </div>
   </footer>
-  <a class="floating-wa" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20a%20Ultisol%20Fumigaciones." target="_blank" rel="noopener noreferrer" aria-label="Consultar con Ultisol Fumigaciones por WhatsApp">WA</a>
+  <a class="floating-wa" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20por%20Manejo%20Integrado%20de%20Plagas%20para%20un%20establecimiento%20alimentario." target="_blank" rel="noopener noreferrer" aria-label="Consultar con Ultisol Fumigaciones por WhatsApp">WA</a>
 </body>
 </html>
