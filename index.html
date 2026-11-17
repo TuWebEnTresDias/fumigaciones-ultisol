@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15362b">
+  <meta name="robots" content="noindex,follow">
+  <meta name="description" content="Ultisol Fumigaciones: control de plagas con enfoque en industrias alimentarias. Atención en Misiones. Consultá por tu establecimiento.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Ultisol Fumigaciones | Industrias alimentarias en Misiones">
+  <meta property="og:description" content="Un enfoque en control de plagas para industrias alimentarias. Consultá por tu establecimiento en Misiones.">
+  <meta name="referrer" content="no-referrer">
+  <title>Ultisol Fumigaciones | Industrias alimentarias en Misiones</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172b24;
+      --muted: #5d7167;
+      --forest: #15362b;
+      --forest-2: #214d3d;
+      --leaf: #c9ef7a;
+      --paper: #f4f6ef;
+      --white: #fff;
+      --line: #dce5d9;
+      --soft: #e9efe5;
+      --header-height: 78px;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: inherit; line-height: 1.6; }
+    a { color: inherit; }
+    .skip-link { position: absolute; left: 14px; top: -70px; z-index: 100; padding: 10px 14px; background: var(--leaf); color: var(--forest); border-radius: 8px; font-weight: 700; }
+    .skip-link:focus { top: 12px; }
+    .wrap { width: min(1160px, calc(100% - 48px)); margin-inline: auto; }
+    .site-header { position: sticky; top: 0; z-index: 20; background: rgba(244, 246, 239, .96); border-bottom: 1px solid rgba(21, 54, 43, .09); backdrop-filter: blur(14px); }
+    .header-inner { min-height: var(--header-height); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { text-decoration: none; display: grid; gap: 0; line-height: 1.08; flex: 0 0 auto; }
+    .brand strong { font-size: 1.13rem; font-weight: 850; letter-spacing: .11em; }
+    .brand span { margin-top: 5px; color: var(--muted); font-size: .69rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+    .nav { display: flex; align-items: center; gap: 26px; }
+    .nav a { color: #40564b; text-decoration: none; font-size: .9rem; font-weight: 650; }
+    .nav a:hover, .nav a:focus-visible { color: #1d684b; }
+    .nav .nav-cta { padding: 11px 17px; background: var(--forest); color: var(--white); border-radius: 999px; }
+    .nav .nav-cta:hover, .nav .nav-cta:focus-visible { background: var(--forest-2); color: var(--white); }
+    .hero { padding: 50px 0 54px; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(360px, .98fr); align-items: center; gap: clamp(36px, 6vw, 78px); }
+    .eyebrow, .kicker { display: inline-flex; align-items: center; gap: 10px; color: #3c7454; font-size: .74rem; font-weight: 850; letter-spacing: .16em; text-transform: uppercase; }
+    .eyebrow::before, .kicker::before { width: 24px; height: 2px; background: currentColor; content: ""; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: inherit; }
+    h1 { max-width: 690px; margin: 20px 0 20px; color: var(--forest); font-size: clamp(2.7rem, 5.6vw, 5.25rem); font-weight: 830; line-height: .99; letter-spacing: -.065em; }
+    h1 em { color: #37734f; font-style: normal; }
+    .hero-copy { max-width: 580px; color: #50645a; font-size: clamp(1rem, 1.5vw, 1.13rem); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 29px; }
+    .button { min-height: 49px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 19px; border: 1px solid transparent; border-radius: 999px; text-decoration: none; font-size: .94rem; font-weight: 780; transition: transform .18s ease, background .18s ease; }
+    .button:hover { transform: translateY(-2px); }
+    .button-primary { background: var(--forest); color: var(--white); }
+    .button-primary:hover { background: var(--forest-2); }
+    .button-light { border-color: #bac9bd; color: var(--forest); background: transparent; }
+    .button-light:hover { background: var(--white); }
+    .hero-note { margin: 22px 0 0; color: #64756b; font-size: .85rem; }
+    .hero-note strong { color: var(--forest); }
+    .hero-art { min-height: 460px; position: relative; overflow: hidden; isolation: isolate; padding: 34px; display: flex; align-items: end; border-radius: 30px; background: radial-gradient(circle at 83% 18%, rgba(201, 239, 122, .2), transparent 32%), linear-gradient(145deg, #2b5a44, #15362b 63%, #10271f); color: var(--white); }
+    .hero-art::before { position: absolute; z-index: -1; inset: 0; content: ""; opacity: .27; background-image: linear-gradient(rgba(255,255,255,.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.15) 1px, transparent 1px); background-size: 42px 42px; mask-image: linear-gradient(130deg, black, transparent 76%); }
+    .hero-art::after { position: absolute; z-index: -1; top: 35px; right: 30px; width: 230px; height: 230px; border: 1px solid rgba(201,239,122,.42); border-radius: 50%; box-shadow: 0 0 0 32px rgba(201,239,122,.06), 0 0 0 65px rgba(201,239,122,.035); content: ""; }
+    .art-content { width: 100%; }
+    .art-topline { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .art-tag { padding: 7px 11px; border: 1px solid rgba(255,255,255,.37); border-radius: 999px; color: #f5f8ee; font-size: .67rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .art-location { color: #e3eddf; font-size: .78rem; font-weight: 700; }
+    .art-title { margin: 68px 0 28px; max-width: 380px; font-size: clamp(2.3rem, 4vw, 3.7rem); font-weight: 820; line-height: .98; letter-spacing: -.06em; }
+    .art-title span { display: block; color: var(--leaf); }
+    .art-rule { width: 100%; height: 1px; background: rgba(255,255,255,.27); }
+    .art-prompt { display: grid; grid-template-columns: 32px 1fr; gap: 12px; align-items: start; margin-top: 20px; color: #e4ede3; font-size: .9rem; }
+    .art-prompt b { width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; background: var(--leaf); color: var(--forest); font-size: .77rem; }
+    .art-prompt span { display: block; }
+    .hero-art-note { position: absolute; top: 33px; right: 30px; color: rgba(255,255,255,.72); font-size: .67rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .quick-facts { background: var(--leaf); color: var(--forest); }
+    .quick-facts-inner { min-height: 82px; display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; gap: 18px; }
+    .fact { display: flex; align-items: center; gap: 11px; font-size: .9rem; font-weight: 760; }
+    .fact-dot { width: 10px; height: 10px; border: 2px solid currentColor; border-radius: 50%; }
+    .section { padding: 96px 0; }
+    .section-heading { max-width: 720px; margin: 0 auto 45px; text-align: center; }
+    .section-heading .kicker { justify-content: center; }
+    .section-heading h2 { margin: 14px 0 13px; color: var(--forest); font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 820; line-height: 1.05; letter-spacing: -.055em; }
+    .section-heading p { margin: 0; color: var(--muted); font-size: 1rem; }
+    .focus { background: var(--white); }
+    .focus-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; }
+    .focus-card { min-height: 235px; padding: 27px; border: 1px solid var(--line); border-radius: 21px; background: var(--white); transition: transform .2s ease, box-shadow .2s ease; }
+    .focus-card:hover { transform: translateY(-4px); box-shadow: 0 18px 38px rgba(21,54,43,.09); }
+    .focus-number { display: inline-block; color: #548166; font-size: .75rem; font-weight: 850; letter-spacing: .12em; }
+    .focus-card h3 { margin: 24px 0 9px; color: var(--forest); font-size: 1.15rem; font-weight: 800; letter-spacing: -.025em; }
+    .focus-card p { margin: 0; color: var(--muted); font-size: .93rem; }
+    .conversation { background: var(--soft); }
+    .conversation-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(36px, 7vw, 88px); align-items: center; }
+    .conversation h2 { margin: 14px 0 17px; color: var(--forest); font-size: clamp(2rem, 4.1vw, 3.4rem); font-weight: 820; line-height: 1.04; letter-spacing: -.06em; }
+    .conversation-copy > p { color: var(--muted); }
+    .conversation-list { display: grid; gap: 13px; }
+    .conversation-item { display: grid; grid-template-columns: 42px 1fr; gap: 13px; align-items: start; padding: 17px 19px; border: 1px solid #d2dfd1; border-radius: 16px; background: rgba(255,255,255,.64); }
+    .conversation-item b { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: var(--forest); color: var(--leaf); font-size: .82rem; }
+    .conversation-item strong { display: block; margin-bottom: 3px; color: var(--forest); font-size: .93rem; }
+    .conversation-item span { color: var(--muted); font-size: .87rem; }
+    .location { background: var(--forest); color: var(--white); }
+    .location-grid { display: grid; grid-template-columns: 1fr .85fr; gap: 55px; align-items: center; }
+    .location .kicker { color: var(--leaf); }
+    .location h2 { max-width: 650px; margin: 14px 0 16px; font-size: clamp(2rem, 4vw, 3.3rem); font-weight: 820; line-height: 1.04; letter-spacing: -.055em; }
+    .location-copy { max-width: 600px; margin-bottom: 0; color: #cad7ce; }
+    .location-card { padding: 27px; border: 1px solid rgba(255,255,255,.27); border-radius: 21px; background: rgba(255,255,255,.06); }
+    .location-card small { display: block; color: var(--leaf); font-size: .68rem; font-weight: 850; letter-spacing: .15em; text-transform: uppercase; }
+    .location-card strong { display: block; margin: 9px 0 3px; font-size: 1.55rem; letter-spacing: -.035em; }
+    .location-card span { color: #d1ddd3; font-size: .9rem; }
+    .faq { background: var(--paper); }
+    .faq-list { max-width: 800px; margin: 0 auto; border-top: 1px solid var(--line); }
+    .faq-list details { padding: 20px 5px; border-bottom: 1px solid var(--line); }
+    .faq-list summary { display: flex; justify-content: space-between; gap: 24px; cursor: pointer; color: var(--forest); font-weight: 780; list-style: none; }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list summary::after { content: "+"; color: #4f795e; font-size: 1.2rem; line-height: 1; }
+    .faq-list details[open] summary::after { content: "−"; }
+    .faq-list details p { max-width: 700px; margin: 12px 0 0; color: var(--muted); font-size: .94rem; }
+    .contact { padding: 76px 0; background: #e6eee2; }
+    .contact-panel { display: grid; grid-template-columns: 1.1fr .9fr; gap: 34px; align-items: center; padding: clamp(28px, 5vw, 55px); border-radius: 28px; background: var(--white); box-shadow: 0 24px 60px rgba(21,54,43,.08); }
+    .contact-panel h2 { margin: 14px 0 12px; color: var(--forest); font-size: clamp(2rem, 4vw, 3rem); font-weight: 820; line-height: 1.05; letter-spacing: -.055em; }
+    .contact-panel p { max-width: 570px; margin-bottom: 0; color: var(--muted); }
+    .contact-actions { display: grid; gap: 12px; }
+    .contact-detail { padding: 16px 17px; border: 1px solid var(--line); border-radius: 15px; background: #fbfcf9; }
+    .contact-detail small { display: block; margin-bottom: 4px; color: #63816d; font-size: .67rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
+    .contact-detail a { color: var(--forest); font-size: 1.04rem; font-weight: 800; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    .contact-detail .button { width: 100%; }
+    .contact-detail .button:hover { color: var(--white); }
+    .footer { padding: 31px 0; background: #10271f; color: #d8e2d9; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .footer-brand { font-weight: 820; letter-spacing: .1em; }
+    .footer small { display: block; margin-top: 4px; color: #aab9ac; font-size: .77rem; }
+    .footer-note { color: #aab9ac; font-size: .78rem; }
+    .floating-wa { position: fixed; z-index: 15; right: 22px; bottom: 22px; width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; background: #20bd68; color: var(--white); box-shadow: 0 8px 26px rgba(7,47,28,.3); text-decoration: none; font-size: .76rem; font-weight: 900; letter-spacing: .04em; }
+    .floating-wa:hover { background: #159952; }
+    :focus-visible { outline: 3px solid #82b852; outline-offset: 3px; }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+      .hero-art { min-height: 420px; padding: 27px; }
+      .nav { gap: 15px; }
+      .nav a { font-size: .84rem; }
+      .conversation-grid { gap: 36px; }
+      .location-grid { gap: 35px; }
+    }
+    @media (max-width: 720px) {
+      :root { --header-height: auto; }
+      .wrap { width: min(100% - 36px, 1160px); }
+      .header-inner { min-height: 0; padding: 15px 0 12px; flex-wrap: wrap; gap: 12px 18px; }
+      .brand strong { font-size: 1.02rem; }
+      .nav { order: 3; width: 100%; gap: 19px; overflow-x: auto; padding: 3px 0 6px; }
+      .nav a { flex: 0 0 auto; font-size: .82rem; }
+      .nav .nav-cta { padding: 8px 13px; }
+      .hero { padding: 38px 0 42px; }
+      .hero-grid { grid-template-columns: 1fr; }
+      h1 { max-width: 600px; font-size: clamp(2.65rem, 12vw, 4.25rem); }
+      .hero-art { min-height: 380px; }
+      .art-title { margin-top: 56px; font-size: clamp(2.3rem, 10vw, 3.5rem); }
+      .quick-facts-inner { min-height: 0; grid-template-columns: 1fr; gap: 0; padding-block: 13px; }
+      .fact { min-height: 43px; font-size: .86rem; }
+      .section { padding: 72px 0; }
+      .section-heading { margin-bottom: 32px; }
+      .focus-grid { grid-template-columns: 1fr; }
+      .focus-card { min-height: auto; padding: 23px; }
+      .conversation-grid, .location-grid, .contact-panel { grid-template-columns: 1fr; }
+      .location-card { max-width: none; }
+      .contact { padding: 54px 0; }
+      .contact-panel { gap: 24px; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+      .floating-wa { right: 16px; bottom: 16px; width: 54px; height: 54px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ultisol Fumigaciones",
+    "telephone": "+5493755431780",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oberá",
+      "addressRegion": "Misiones",
+      "addressCountry": "AR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Misiones, Argentina"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Ultisol Fumigaciones, inicio">
+        <strong>ULTISOL</strong>
+        <span>Fumigaciones</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#enfoque">Enfoque</a>
+        <a href="#zona">Zona de atención</a>
+        <a href="#preguntas">Preguntas</a>
+        <a class="nav-cta" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Ultisol Fumigaciones · Misiones</span>
+          <h1 id="hero-title">Control de plagas para <em>industrias alimentarias.</em></h1>
+          <p class="hero-copy">Un enfoque claro para empresas del rubro alimentario. Consultá por tu establecimiento y la localidad donde necesitás atención.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20consultar%20por%20control%20de%20plagas%20para%20una%20industria%20alimentaria.%20Mi%20establecimiento%20est%C3%A1%20en%20Misiones." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
+            <a class="button button-light" href="#enfoque">Conocer el enfoque</a>
+          </div>
+          <p class="hero-note"><strong>Atención en Misiones.</strong> Consultá cobertura para tu localidad.</p>
+        </div>
+        <div class="hero-art" aria-label="Enfoque de Ultisol en industrias alimentarias y atención en Misiones">
+          <span class="hero-art-note">Una consulta empieza acá</span>
+          <div class="art-content">
+            <div class="art-topline">
+              <span class="art-tag">Enfoque principal</span>
+              <span class="art-location">Misiones · Argentina</span>
+            </div>
+            <h2 class="art-title">Industrias <span>alimentarias</span></h2>
+            <div class="art-rule"></div>
+            <div class="art-prompt"><b>1</b><span>Contanos qué tipo de establecimiento tenés.</span></div>
+            <div class="art-prompt"><b>2</b><span>Indicá tu localidad en Misiones.</span></div>
+            <div class="art-prompt"><b>3</b><span>Describí qué necesitás resolver.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quick-facts" aria-label="Resumen de Ultisol">
+      <div class="wrap quick-facts-inner">
+        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Fumigaciones</div>
+        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Enfoque en industrias alimentarias</div>
+        <div class="fact"><span class="fact-dot" aria-hidden="true"></span>Atención en Misiones</div>
+      </div>
+    </section>
+    <section class="section focus" id="enfoque">
+      <div class="wrap">
+        <header class="section-heading">
+          <span class="kicker">Un servicio para conversar</span>
+          <h2>Empecemos por conocer tu establecimiento</h2>
+          <p>La consulta permite entender el tipo de actividad, la ubicación y la necesidad concreta antes de conversar el alcance del servicio.</p>
+        </header>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <span class="focus-number">01 · ACTIVIDAD</span>
+            <h3>Industria alimentaria</h3>
+            <p>El enfoque principal de Ultisol está puesto en empresas del rubro alimentario.</p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">02 · UBICACIÓN</span>
+            <h3>Atención en Misiones</h3>
+            <p>Compartí tu localidad para confirmar disponibilidad y alcance.</p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">03 · CONSULTA</span>
+            <h3>Tu necesidad puntual</h3>
+            <p>Contanos qué querés resolver y qué tipo de establecimiento requiere atención.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section conversation">
+      <div class="wrap conversation-grid">
+        <div class="conversation-copy">
+          <span class="kicker">Contacto directo</span>
+          <h2>Una consulta clara ayuda a empezar bien.</h2>
+          <p>Podés escribir con el tipo de establecimiento, la localidad y una breve descripción de tu consulta. El equipo de Ultisol te responderá para conversar los próximos pasos.</p>
+          <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20quiero%20consultar%20por%20un%20establecimiento%20alimentario%20en%20Misiones." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+        </div>
+        <div class="conversation-list" aria-label="Datos útiles para la consulta">
+          <div class="conversation-item"><b>01</b><div><strong>Tipo de actividad</strong><span>Qué produce o qué función cumple el establecimiento.</span></div></div>
+          <div class="conversation-item"><b>02</b><div><strong>Localidad</strong><span>La ciudad o zona de Misiones donde necesitás atención.</span></div></div>
+          <div class="conversation-item"><b>03</b><div><strong>Motivo de consulta</strong><span>La situación que querés conversar con el equipo.</span></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="section location" id="zona">
+      <div class="wrap location-grid">
+        <div>
+          <span class="kicker">Misiones, Argentina</span>
+          <h2>Desde Oberá, con atención en la provincia.</h2>
+          <p class="location-copy">Ultisol Fumigaciones tiene su base en Oberá. Escribinos con tu localidad para conversar sobre la disponibilidad del servicio.</p>
+        </div>
+        <div class="location-card">
+          <small>Ubicación de referencia</small>
+          <strong>Oberá</strong>
+          <span>Misiones · Argentina</span>
+        </div>
+      </div>
+    </section>
+    <section class="section faq" id="preguntas">
+      <div class="wrap">
+        <header class="section-heading">
+          <span class="kicker">Preguntas frecuentes</span>
+          <h2>Antes de escribir</h2>
+          <p>Si tenés una consulta concreta sobre tu establecimiento, contactá directamente a Ultisol.</p>
+        </header>
+        <div class="faq-list">
+          <details>
+            <summary>¿A qué tipo de empresas está orientado el enfoque?</summary>
+            <p>Principalmente a industrias alimentarias. Escribinos para conversar sobre tu actividad y necesidad.</p>
+          </details>
+          <details>
+            <summary>¿En qué zonas trabajan?</summary>
+            <p>Actualmente, la atención se centra en Misiones. Consultá por tu localidad para confirmar disponibilidad.</p>
+          </details>
+          <details>
+            <summary>¿Qué datos conviene incluir en la consulta?</summary>
+            <p>El tipo de establecimiento, la localidad y una breve descripción de lo que necesitás resolver.</p>
+          </details>
+          <details>
+            <summary>¿Cómo me contacto?</summary>
+            <p>Podés escribir por WhatsApp o llamar al número de contacto publicado en esta página.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contacto">
+      <div class="wrap contact-panel">
+        <div>
+          <span class="kicker">Hablemos de tu caso</span>
+          <h2>¿Tu establecimiento está en Misiones?</h2>
+          <p>Contactá a Facundo, Director Técnico de Ultisol, para compartir tu consulta.</p>
+        </div>
+        <div class="contact-actions">
+          <div class="contact-detail">
+            <small>WhatsApp y teléfono</small>
+            <a href="tel:+5493755431780">+54 9 3755 43-1780</a>
+          </div>
+          <a class="button button-primary" href="https://wa.me/5493755431780?text=Hola%2C%20soy%20responsable%20de%20un%20establecimiento%20en%20Misiones%20y%20quiero%20consultar." target="_blank" rel="noopener noreferrer">Contactar a Ultisol por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div><div class="footer-brand">ULTISOL FUMIGACIONES</div><small>Oberá · Misiones · Argentina</small></div>
+      <div class="footer-note">Control de plagas · Enfoque en industrias alimentarias</div>
+    </div>
+  </footer>
+  <a class="floating-wa" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20a%20Ultisol%20Fumigaciones." target="_blank" rel="noopener noreferrer" aria-label="Consultar con Ultisol Fumigaciones por WhatsApp">WA</a>
+</body>
+</html>
