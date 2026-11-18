@@ -1,6 +1,6 @@
 # Ultisol Fumigaciones
 
-Landing page inicial de Ultisol, preparada a partir de la demo de fumigaciones que recibió el lead. Se tomó su estructura como referencia y se reemplazaron las secciones genéricas por el enfoque confirmado en industrias alimentarias y la zona de atención en Misiones.
+Sitio estático de Ultisol Fumigaciones, con una landing enfocada en industrias alimentarias y un blog inicial de guías sobre Manejo Integrado de Plagas para plantas procesadoras, secaderos, molinos y envasadoras.
 
 ## Identidad visual
 
@@ -13,5 +13,6 @@ Landing page inicial de Ultisol, preparada a partir de la demo de fumigaciones q
 - Página estática en `index.html`, con contenido principal en HTML y CSS.
 - Contacto telefónico y WhatsApp configurado con el número comercial disponible.
 - No se agregaron servicios específicos, horarios, certificaciones, reseñas ni garantías que no estén confirmados.
-- La página queda en `noindex` mientras el cliente revisa esta primera versión.
-- No se fijó una URL canónica ni se generaron sitemap/llms hasta confirmar el destino público final.
+- La landing utiliza el dominio confirmado, canonical y rastreo habilitado.
+- robots.txt y sitemap.xml incluyen el sitio y las páginas del blog.
+- El blog público está bajo /blogs/; el calendario editorial está en BLOG.md.
