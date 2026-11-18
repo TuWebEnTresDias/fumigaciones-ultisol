@@ -199,6 +199,35 @@
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
     }
+  
+    .blog-preview { background: var(--soft); }
+    .blog-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; }
+    .blog-card { min-height: 330px; display: flex; flex-direction: column; padding: 25px; border: 1px solid var(--line); border-radius: 21px; background: var(--white); }
+    .blog-card-locked { border-style: dashed; background: rgba(255,255,255,.58); }
+    .blog-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 24px; }
+    .blog-status { width: fit-content; display: inline-flex; align-items: center; gap: 7px; padding: 6px 10px; border-radius: 999px; font-size: .7rem; font-weight: 820; letter-spacing: .07em; text-transform: uppercase; }
+    .blog-status-live { background: var(--brand-cyan-soft); color: var(--brand-navy); }
+    .blog-status-locked { background: #e9eef1; color: #60778a; }
+    .blog-lock { width: 10px; height: 8px; position: relative; display: inline-block; border: 1.5px solid currentColor; border-radius: 2px; }
+    .blog-lock::before { position: absolute; top: -5px; left: 1px; width: 5px; height: 4px; border: 1.5px solid currentColor; border-bottom: 0; border-radius: 4px 4px 0 0; content: ""; }
+    .blog-card-number { color: #7890a0; font-size: .73rem; font-weight: 850; letter-spacing: .1em; }
+    .blog-card h3 { margin: 0 0 12px; color: var(--brand-navy); font-size: 1.22rem; font-weight: 800; line-height: 1.22; letter-spacing: -.035em; }
+    .blog-card p { margin: 0 0 22px; color: var(--muted); font-size: .91rem; }
+    .blog-read-link { width: fit-content; display: inline-flex; align-items: center; gap: 8px; margin-top: auto; color: var(--brand-blue); font-size: .9rem; font-weight: 800; text-decoration: none; }
+    .blog-read-link:hover { color: var(--brand-orange); }
+    .blog-locked-note { margin-top: auto; color: #718493; font-size: .83rem; font-weight: 700; }
+    .blog-preview-action { display: flex; justify-content: center; margin-top: 30px; }
+    @media (max-width: 900px) {
+      .blog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .blog-card:last-child { grid-column: 1 / -1; }
+    }
+    @media (max-width: 720px) {
+      .blog-grid { grid-template-columns: 1fr; }
+      .blog-card { min-height: auto; padding: 23px; }
+      .blog-card:last-child { grid-column: auto; }
+      .blog-preview-action .button { width: 100%; max-width: 320px; }
+    }
+
   </style>
   <script type="application/ld+json">
   {
@@ -343,6 +372,49 @@
         </div>
       </div>
     </section>
+    
+    <section class="section blog-preview" id="blog" aria-labelledby="blog-preview-title">
+      <div class="wrap">
+        <header class="section-heading">
+          <span class="kicker">Blog de Ultisol</span>
+          <h2 id="blog-preview-title">Información práctica para tu establecimiento.</h2>
+          <p>Guías sobre Manejo Integrado de Plagas para plantas procesadoras, secaderos, molinos y envasadoras.</p>
+        </header>
+        <div class="blog-grid">
+          <article class="blog-card blog-card-published">
+            <div class="blog-card-meta">
+              <span class="blog-status blog-status-live">Publicado</span>
+              <span class="blog-card-number">01</span>
+            </div>
+            <h3>Control de plagas en industrias alimentarias: qué revisar al planificarlo</h3>
+            <p>Una lista de puntos para describir el establecimiento, ordenar observaciones y coordinar una evaluación con la operación de la planta.</p>
+            <a class="blog-read-link" href="/blogs/control-de-plagas-industria-alimentaria/">Leer artículo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="blog-card blog-card-locked" aria-disabled="true" aria-label="Artículo bloqueado, próximamente: Cómo registrar señales de plagas en una planta de alimentos">
+            <div class="blog-card-meta">
+              <span class="blog-status blog-status-locked"><span class="blog-lock" aria-hidden="true"></span>Próximamente</span>
+              <span class="blog-card-number">02</span>
+            </div>
+            <h3>Cómo registrar señales de plagas en una planta de alimentos</h3>
+            <p>Una guía para ordenar observaciones y facilitar su seguimiento.</p>
+            <span class="blog-locked-note">Artículo bloqueado · Próximamente</span>
+          </article>
+          <article class="blog-card blog-card-locked" aria-disabled="true" aria-label="Artículo bloqueado, próximamente: Puertas, drenajes y aberturas: puntos de acceso que conviene revisar">
+            <div class="blog-card-meta">
+              <span class="blog-status blog-status-locked"><span class="blog-lock" aria-hidden="true"></span>Próximamente</span>
+              <span class="blog-card-number">03</span>
+            </div>
+            <h3>Puertas, drenajes y aberturas: puntos de acceso que conviene revisar</h3>
+            <p>Aspectos de infraestructura que conviene considerar en una revisión.</p>
+            <span class="blog-locked-note">Artículo bloqueado · Próximamente</span>
+          </article>
+        </div>
+        <div class="blog-preview-action">
+          <a class="button button-primary" href="/blogs/">Ver blog</a>
+        </div>
+      </div>
+    </section>
+
     <section class="section faq" id="preguntas">
       <div class="wrap">
         <header class="section-heading">
@@ -396,3 +468,4 @@
   <a class="floating-wa" href="https://wa.me/5493755431780?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20por%20Manejo%20Integrado%20de%20Plagas%20para%20un%20establecimiento%20alimentario." target="_blank" rel="noopener noreferrer" aria-label="Consultar con Ultisol Fumigaciones por WhatsApp">WA</a>
 </body>
 </html>
+
