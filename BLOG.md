@@ -14,7 +14,7 @@ Calendario editorial semanal para responsables de plantas procesadoras, secadero
 | Orden | Tema | Slug | Intención de lectura | Estado |
 |---|---|---|---|---|
 | 1 | Control de plagas en industrias alimentarias: qué revisar al planificarlo | control-de-plagas-industria-alimentaria | Preparar una consulta o evaluación para una planta | Publicado el 18/11/2026 |
-| 2 | Cómo registrar señales de plagas en una planta de alimentos | registrar-senales-plagas-planta-alimentos | Ordenar observaciones y facilitar su seguimiento | Propuesto |
+| 2 | Cómo registrar señales de plagas en una planta de alimentos | registrar-senales-plagas-planta-alimentos | Ordenar observaciones y facilitar su seguimiento | Publicado el 25/11/2026 |
 | 3 | Puertas, drenajes y aberturas: puntos de acceso que conviene revisar | puntos-acceso-plagas-planta-alimentos | Identificar condiciones de infraestructura a revisar | Propuesto |
 | 4 | Recepción y almacenamiento: qué condiciones conviene incluir en la revisión | recepcion-almacenamiento-control-plagas | Revisar el movimiento y resguardo de insumos | Propuesto |
 | 5 | Limpieza, residuos y plagas: cómo pensar el entorno de una planta | limpieza-residuos-plagas-industria-alimentaria | Comprender cómo el entorno influye en la prevención | Propuesto |
